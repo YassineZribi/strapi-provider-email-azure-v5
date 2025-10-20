@@ -1,0 +1,32 @@
+{
+  "name": "strapi-provider-email-azure-v5",
+  "version": "1.0.0",
+  "description": "Azure Communication Service email provider for Strapi v5",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+   "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YassineZribi/strapi-provider-email-azure-v5.git"
+  },
+  "keywords": ["strapi", "email", "provider", "azure", "communication service"],
+  "author": "Yassine ZRIBI",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/communication-email": "^1.1.0",
+    "@azure/identity": "^4.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.0",
+    "typescript": "^5.9.3"
+  }
+}
