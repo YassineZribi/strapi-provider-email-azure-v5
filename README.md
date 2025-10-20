@@ -1,8 +1,8 @@
 ## Installation
-npm install --save ../path/to/strapi-provider-email-azure-v5
-# or publish to npm then `npm i strapi-provider-email-azure-v5`
+`npm install strapi-provider-email-azure-v5`
 
 ## Strapi config (config/plugins.js)
+```js
 module.exports = ({ env }) => ({
   email: {
     config: {
@@ -18,3 +18,4 @@ module.exports = ({ env }) => ({
     },
   },
 });
+```
